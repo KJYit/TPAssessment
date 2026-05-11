@@ -62,8 +62,6 @@ Return ONLY the JSON. No explanation. No markdown code blocks.
 2. **Install dependencies:**
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. **Set up Environment Variables:**
@@ -90,4 +88,4 @@ Return ONLY the JSON. No explanation. No markdown code blocks.
 
 ## Acknowledgements
 
-The receipt images used for testing and development in this project were sourced from the [OCR Receipts Text Detection dataset](https://www.kaggle.com/datasets/trainingdatapro/ocr-receipts-text-detection) on Kaggle, provided by TrainingDataPro.
+The receipt images used for testing and development in this project were sourced from the [OCR Receipts Text Detection dataset](https://www.kaggle.com/datasets/trainingdatapro/ocr-receipts-text-detection) on Kaggle.

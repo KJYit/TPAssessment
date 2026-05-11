@@ -63,3 +63,7 @@ An intelligent web application built with Next.js and Google's Generative AI (Ge
 4. Make any necessary corrections to the fields.
 5. Click "Confirm & Save Receipt" to save the data.
 6. The saved receipt will appear in the "Saved Receipts" section at the bottom of the page.
+
+## Acknowledgements
+
+The receipt images used for testing and development in this project were sourced from the [OCR Receipts Text Detection dataset](https://www.kaggle.com/datasets/trainingdatapro/ocr-receipts-text-detection) on Kaggle, provided by TrainingDataPro.

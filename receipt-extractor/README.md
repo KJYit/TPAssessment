@@ -51,8 +51,6 @@ An intelligent web application built with Next.js and Google's Generative AI (Ge
 4. **Run the development server:**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application in action.

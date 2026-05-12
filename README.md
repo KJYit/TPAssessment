@@ -1,5 +1,9 @@
 # AI Receipt Extractor
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://tp-assessment.vercel.app/)
+
+**Live Demo:** [https://tp-assessment.vercel.app/](https://tp-assessment.vercel.app/)
+
 An intelligent web application built with Next.js and Google's Generative AI (Gemini) that automatically extracts key information from receipt images. 
 
 ## Features

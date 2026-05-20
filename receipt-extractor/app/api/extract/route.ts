@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Initialize the Gemini API
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 export async function POST(req: Request) {
@@ -32,7 +31,10 @@ export async function POST(req: Request) {
 
         Return ONLY the JSON. No explanation. No markdown code blocks.`;
 
-        const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite', systemInstruction: systemPrompt });
+        const model = genAI.getGenerativeModel({
+            model: 'gemini-3.1-flash-lite',
+            systemInstruction: systemPrompt
+        });
 
         const result = await model.generateContent([
             userPrompt,
@@ -40,7 +42,6 @@ export async function POST(req: Request) {
         ]);
 
         const responseText = result.response.text();
-        // Clean up markdown code blocks if the AI accidentally includes them
         const cleanJson = responseText.replace(/```json/g, '').replace(/```/g, '').trim();
         const extractedData = JSON.parse(cleanJson);
 
